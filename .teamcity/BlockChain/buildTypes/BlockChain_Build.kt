@@ -37,7 +37,6 @@ object BlockChain_Build : BuildType({
         }
         ant {
             name = "1"
-            enabled = false
             mode = antFile {
             }
         }
