@@ -1,8 +1,8 @@
-package BlockChain
+package TestCity
 
-import BlockChain.buildTypes.*
-import BlockChain.vcsRoots.*
-import BlockChain.vcsRoots.BlockChain_HttpsGithubComSNovakInCommBlockChainRefsHeadsMaster
+import TestCity.buildTypes.*
+import TestCity.vcsRoots.*
+import TestCity.vcsRoots.TestCity_HttpsGithubComSNovakInCommTestCityRefsHeadsMaster
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
 import jetbrains.buildServer.configs.kotlin.v2017_2.Project
 import jetbrains.buildServer.configs.kotlin.v2017_2.projectFeatures.VersionedSettings
@@ -10,20 +10,20 @@ import jetbrains.buildServer.configs.kotlin.v2017_2.projectFeatures.versionedSet
 
 object Project : Project({
     uuid = "0f4774c8-d675-4e9d-b334-103aee99a604"
-    id = "BlockChain"
+    id = "TestCity"
     parentId = "_Root"
-    name = "BlockChain"
+    name = "TestCity"
 
-    vcsRoot(BlockChain_HttpsGithubComSNovakInCommBlockChainRefsHeadsMaster)
+    vcsRoot(TestCity_HttpsGithubComSNovakInCommTestCityRefsHeadsMaster)
 
-    buildType(BlockChain_Build)
+    buildType(TestCity_Build)
 
     features {
         versionedSettings {
             id = "PROJECT_EXT_7"
             mode = VersionedSettings.Mode.ENABLED
             buildSettingsMode = VersionedSettings.BuildSettingsMode.PREFER_SETTINGS_FROM_VCS
-            rootExtId = BlockChain_HttpsGithubComSNovakInCommBlockChainRefsHeadsMaster.id
+            rootExtId = TestCity_HttpsGithubComSNovakInCommTestCityRefsHeadsMaster.id
             showChanges = false
             settingsFormat = VersionedSettings.Format.KOTLIN
             storeSecureParamsOutsideOfVcs = true
