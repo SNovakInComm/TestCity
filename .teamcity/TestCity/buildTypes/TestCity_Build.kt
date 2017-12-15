@@ -10,7 +10,7 @@ import jetbrains.buildServer.configs.kotlin.v2017_2.buildSteps.visualStudio
 import jetbrains.buildServer.configs.kotlin.v2017_2.triggers.vcs
 
 object TestCity_Build : BuildType({
-    uuid = "e8ea34ee-f569-489d-a784-ad8e4d188841"
+    uuid = "e8ea34ee-f569-489d-a784-ad8e4d188842"
     id = "TestCity_Build"
     name = "Build"
 

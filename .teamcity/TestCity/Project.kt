@@ -9,7 +9,7 @@ import jetbrains.buildServer.configs.kotlin.v2017_2.projectFeatures.VersionedSet
 import jetbrains.buildServer.configs.kotlin.v2017_2.projectFeatures.versionedSettings
 
 object Project : Project({
-    uuid = "0f4774c8-d675-4e9d-b334-103aee99a604"
+    uuid = "0f4774c8-d675-4e9d-b334-103aee99a605"
     id = "TestCity"
     parentId = "_Root"
     name = "TestCity"
