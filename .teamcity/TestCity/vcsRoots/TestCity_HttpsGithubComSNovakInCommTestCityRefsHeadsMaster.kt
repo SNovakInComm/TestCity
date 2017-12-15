@@ -1,13 +1,13 @@
-package BlockChain.vcsRoots
+package TestCity.vcsRoots
 
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
 import jetbrains.buildServer.configs.kotlin.v2017_2.vcs.GitVcsRoot
 
-object BlockChain_HttpsGithubComSNovakInCommBlockChainRefsHeadsMaster : GitVcsRoot({
+object TestCity_HttpsGithubComSNovakInCommTestCityRefsHeadsMaster : GitVcsRoot({
     uuid = "7c1ef568-e9c5-4cf8-bf60-354ff2b8c563"
-    id = "BlockChain_HttpsGithubComSNovakInCommBlockChainRefsHeadsMaster"
-    name = "https://github.com/SNovakInComm/BlockChain#refs/heads/master"
-    url = "https://github.com/SNovakInComm/BlockChain"
+    id = "TestCity_HttpsGithubComSNovakInCommTestCityRefsHeadsMaster"
+    name = "https://github.com/SNovakInComm/TestCity#refs/heads/master"
+    url = "https://github.com/SNovakInComm/TestCity"
     branchSpec = "+:refs/heads/(*)"
     authMethod = password {
         userName = "SNovakInComm"
